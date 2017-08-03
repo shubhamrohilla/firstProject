@@ -1,5 +1,6 @@
 print"Let's get Started !"
 spyname = raw_input("What is your name ? ")
+spyname=" ".join(spyname.split())
 if len(spyname)>0:
     salutation = raw_input("You are Male or female ?" )
 
